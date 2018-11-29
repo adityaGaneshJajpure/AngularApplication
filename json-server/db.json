@@ -1,0 +1,348 @@
+{
+  "news": [
+    {
+      "id": 0,
+      "name": "Tata Consultancy Services (TCS) not only touched $100 billion in market capitalization",
+      "image": "images/news1.png",
+      "description": "it also in the process overtook the market cap of Accenture, a company whose revenue is almost twice that of TCS.IBM remains the No. 1 in the IT services market cap pecking order, but its market cap is only about 33% higher than that of TCS, though its revenue is more than 300% higher.",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        }
+      ],
+      "remove": 0
+    },
+    {
+      "id": 1,
+      "name": "Google parent Alphabet's profit surges 70%",
+      "image": "images/news2.png",
+      "description": "google parent Alphabet reported a surge in quarterly profits Monday, lifted by strong growth in the digital advertising segment it dominates along with Facebook.Profit in the first three months of 2018 soared more than 70 percent from a year ago to $9.4 billion, Alphabet said in an earnings report that was well above forecasts.",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        }
+      ],
+      "remove": 0
+    },
+    {
+      "id": 2,
+      "name": "Apple-Shazam deal under scanner",
+      "image": "images/news3.png",
+      "description": "EU antitrust regulators opened an investigation on Monday into Apple's bid for British music discovery app Shazam, concerned the deal might give the iPhone maker an unfair advantage in poaching users from its rivals.",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        }
+      ],
+      "remove": 0
+    },
+	
+    {
+      "id": 3,
+      "name": "TCS bets on Business 4.0 to push digital revenue to over $5 billion this year",
+      "image": "images/news4.png",
+      "description": "Gopinathan said the 'digital opportunity' globally runs in the billions as these new technologies are becoming increasingly entrenched across the table at an enterprise.",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        },
+        {
+           "rating": 5,
+          "comment": "quite useful",
+          "author": "Aditya Jajpure",
+          "date": "2018-04-12T17:57:28.556094Z"
+        }
+      ],
+        "remove": 0
+    }
+  ],
+  "classes": [
+    {
+	"id" : 0,
+      "name": "CS1_3",
+      "students": [
+        {
+          "enrollment": "0827CS151012",
+          "name": "Abhishek jain",
+		  "attended" : 1
+        },
+        {
+         "enrollment": "0827CS151013",
+          "name": "Abhishek jain",
+		   "attended" : 1
+        },
+        {
+          "enrollment": "0827CS151014",
+          "name": "Aditya jajpure",
+		   "attended" : 1
+        },
+        {
+           "enrollment": "0827CS151015",
+          "name": "Akanksha pandit",
+		   "attended" : 1
+        }
+      ],
+	  "attendence":[
+		{
+			"date" : "20.12.2017 18:03",
+			"present" : [
+				{
+					"enrollment" : ["0827CS151012","0827CS151013","0827CS151014","0827CS151015"]
+				}
+			]
+		},
+		{
+			"date" : "21.12.2017 18:03",
+			"present" : [
+				{
+					"enrollment" : ["0827CS151012","0827CS151015"]
+				}
+			]
+		}
+	  ]
+    },
+    {
+	"id":1,
+      "name": "CS2_3",
+      "year": 3,
+      "students": [
+        {
+          "enrollment": "0827CS151066",
+          "name": "Aditya Jajpure",
+		  "attended" : 1
+        },
+        {
+         "enrollment": "0827CS1510167",
+          "name": "Bhavna Gupta",
+		   "attended" : 1
+        },
+        {
+          "enrollment": "0827CS151068",
+          "name": "Akanksha pandit",
+		   "attended" : 1
+        },
+        {
+           "enrollment": "0827CS151069",
+          "name": "Abhishek jain",
+		   "attended" : 1
+        }
+      ],
+	  "attendence":[
+		{
+			"date" : "20.12.2017 18:03",
+			"present" : [
+				{
+					"enrollment" : ["0827CS151012","0827CS151013","0827CS151014","0827CS151015"]
+				}
+			]
+		}
+		]
+	},	
+	{
+	"id":2,
+      "name": "CS3_3",
+      "year": 3,
+      "students": [
+        {
+          "enrollment": "0827CS151080",
+          "name": "Palash jain",
+		  "attended" : 1
+        },
+        {
+         "enrollment": "0827CS151081",
+          "name": "Sonam gupta",
+		   "attended" : 1
+        },
+        {
+          "enrollment": "0827CS151082",
+          "name": "Rakesh Mishra",
+		   "attended" : 1
+        },
+        {
+           "enrollment": "0827CS151083",
+          "name": "Rajesh Jain",
+		   "attended" : 1
+        }
+      ],
+	  "attendence":[
+		{
+			"date" : "20.12.2017 18:03",
+			"present" : [
+				{
+					"enrollment" : ["0827CS151012","0827CS151013","0827CS151014","0827CS151015"]
+				}
+			]
+		}]
+		
+		},
+		{
+	"id":3,
+      "name": "CS4_3",
+      "year": 3,
+      "students": [
+        {
+          "enrollment": "0827CS151100",
+          "name": "Tanishq sharma",
+		  "attended" : 1
+        },
+        {
+         "enrollment": "0827CS151101",
+          "name": "Tina sharma",
+		   "attended" : 1
+        },
+        {
+          "enrollment": "0827CS151103",
+          "name": "Mradul Pandit",
+		   "attended" : 1
+        },
+        {
+           "enrollment": "0827CS151104",
+          "name": "Vivek patidar",
+		   "attended" : 1
+        }
+      ],
+	  "attendence":[
+		{
+			"date" : "20.12.2017 18:03",
+			"present" : [
+				{
+					"enrollment" : ["0827CS151012","0827CS151013","0827CS151014","0827CS151015"]
+				}
+			]
+		},
+		{
+			"date" : "21.12.2017 18:03",
+			"present" : [
+				{
+					"enrollment" : ["0827CS151012","0827CS151015"]
+				}
+			]
+		}]
+	  }
+	  ]
+,
+"annoncom" : [
+{
+	"date" : "20/04/2018",
+	"comment" : "Hiii I Am for feedback, Use me fairly :-) 1 "
+},
+{	"date" : "20/04/2018",
+	"comment" : "Hiii I Am for feedback, Use me fairly :-) 2"
+	},
+{	"date" : "20/04/2018",
+	"comment" : "Hiii I Am for feedback, Use me fairly :-) 3"
+	},
+{	"date" : "20/04/2018",
+	"comment" : "Hiii I Am for feedback, Use me fairly :-) 4"
+	},
+{	"date" : "20/04/2018",
+	"comment" : "Hiii I Am for feedback, Use me fairly :-) 5"
+	},
+	{	"date" : "20/04/2018",
+	"comment" : "Hiii I Am for feedback, Use me fairly :-) 5"
+	}
+]
+
+}

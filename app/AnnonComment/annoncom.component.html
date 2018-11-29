@@ -1,0 +1,23 @@
+<ActionBar title="Annonymous Comment">
+</ActionBar>
+<GridLayout>
+    <StackLayout orientation="horizontal">
+        <ListView [items] = "commentsall" class="list-group" *ngIf="commentsall">
+            <ng-template let-annoncom="item">
+                <StackLayout orientation="horizontal" class="list-group-item p-10 border">
+                     <GridLayout class="list-group-item" rows="auto *" columns="*,*" backgroundColor="white"> 
+                        <Label row="0" col="0" class="list-group-item-text" [text]="annoncom.date"></Label>
+                        <Label row="0" col="1" class="list-group-item-text" [text]="annoncom.comment" textWrap="true"></Label>
+                    </GridLayout>
+                </StackLayout>
+            </ng-template>
+        </ListView>      
+        <ActivityIndicator busy="true" *ngIf="!(commentsall || errMess)" width="50"
+                height="50" class="activity-indicator">
+        </ActivityIndicator>
+        <Label *ngIf="errMess" text="Empty list,Please add a class first"></Label>      
+    </StackLayout>
+    <StackLayout class="float-btn-container-ls" (tap)="click()">
+        <annoncom-btn></annoncom-btn>
+     </StackLayout>
+</GridLayout>

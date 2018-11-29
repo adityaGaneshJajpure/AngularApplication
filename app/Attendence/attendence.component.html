@@ -1,0 +1,51 @@
+    <ActionBar title="Attendence">
+    </ActionBar>
+    <TabView>
+        <GridLayout *tabItem="{title:'Editing'}">
+            <StackLayout orientation="horizontal">
+                <ListView [items] = "classall" class="list-group" *ngIf="classall">
+                    <ng-template let-classes="item">
+                        <StackLayout orientation="horizontal" class="list-group-item p-10 border" [nsRouterLink] ="['/addmodal',classes.id]">
+                             <GridLayout class="list-group-item" rows="auto *" columns="*,50" backgroundColor="white"> 
+                                <Label row="0" col="0" class="list-group-item-text" [text]="classes.name"></Label>
+                                <Button row="0" col="1" class="list-group-item-action btn btn-rounded-sm btn-outline no-border fa" text="&#xf0d7;" ios.systemIcon="9" ios.position="left" android.systemIcon="ic_menu_more" android.position="actionBar" (tap)="classmodal()"></Button>
+                            </GridLayout>
+                        </StackLayout>
+                    </ng-template>
+                </ListView>      
+                <ActivityIndicator busy="true" *ngIf="!(classall || errMess)" width="50"
+                        height="50" class="activity-indicator"></ActivityIndicator>
+                <Label *ngIf="errMess" [text]="'Error: ' + errMess"></Label>      
+            </StackLayout>
+            <StackLayout class="float-btn-container" (tap)="click()" >
+                <float-btn></float-btn>
+             </StackLayout>
+        </GridLayout>
+
+        <GridLayout *tabItem="{title:'Attendance'}">
+            <StackLayout orientation="horizontal">
+                <ListView [items] = "classall" class="list-group" *ngIf="classall">
+                    <ng-template let-classes="item">
+                        <StackLayout orientation="horizontal" class="list-group-item p-10 border" [nsRouterLink] ="['/takeattendence',classes.id]">
+                             <GridLayout class="list-group-item" rows="auto *" columns="*,50" backgroundColor="white"> 
+                                <Label row="0" col="0" class="list-group-item-text" [text]="classes.name"></Label>
+                                <Button row="0" col="1" class="list-group-item-action btn btn-rounded-sm btn-outline no-border fa" text="&#xf0d7;" ios.systemIcon="9" ios.position="left" android.systemIcon="ic_menu_more" android.position="actionBar" (tap)="classmodal()"></Button>
+                            </GridLayout>
+                        </StackLayout>
+                    </ng-template>
+                </ListView>      
+                <ActivityIndicator busy="true" *ngIf="!(classall || errMess)" width="50"
+                        height="50" class="activity-indicator"></ActivityIndicator>
+                <Label *ngIf="errMess" text="Empty list,Please add a class first"></Label>      
+            </StackLayout>
+            <StackLayout class="float-btn-container-ls" >
+                <presentstatus-btn></presentstatus-btn>
+             </StackLayout>
+        </GridLayout>
+
+        <StackLayout *tabItem="{title:'Statistics'}">
+            <StackLayout class="float-btn-container-st">
+                <float-btn-st></float-btn-st>
+            </StackLayout>
+        </StackLayout>
+    </TabView>

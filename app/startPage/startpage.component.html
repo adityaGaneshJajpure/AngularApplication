@@ -1,0 +1,19 @@
+<FlexboxLayout class="page">
+        <StackLayout class="form">
+            <Image class="logo" src="~/images/logoA.png"></Image>
+            <Label class="header" text="COLLEGE MANAGER"></Label>
+            <Label class="header" text="WELCOMES YOU"></Label>
+            <Label class="headers" text="Copyright@ Astar Pvt. ltd."></Label>
+            <StackLayout class="input-field">
+                <Label class="input" text="TEACHER SIGNUP/LOGIN"></Label>
+                <Button text="SIGNUP/LOGIN" [nsRouterLink] ="['/teacherlogin']" class="btn btn-primary m-t-20"></Button>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+    
+            <StackLayout class="input-field">
+                    <Label class="input" text="STUDENT SIGNUP/LOGIN"></Label>
+                    <Button text="SIGNUP/LOGIN" [nsRouterLink] ="['/studentlogin']" class="btn btn-primary m-t-20"></Button>
+                    <StackLayout class="hr-light"></StackLayout>
+                </StackLayout>
+            </StackLayout>
+    </FlexboxLayout>

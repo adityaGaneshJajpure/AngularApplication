@@ -1,0 +1,30 @@
+<ActionBar title="Assignment">
+</ActionBar>
+<TabView>
+    <GridLayout *tabItem="{title:'Submitted'}">
+        <StackLayout orientation="horizontal">
+                <Label text="Module Will be Presented In version2.0 After College Permission" textWrap="true" fontSize="18"></Label>
+        </StackLayout>
+        <StackLayout class="float-btn-container" (tap)="click()" >
+            <farji-btn></farji-btn>
+         </StackLayout>
+    </GridLayout>
+
+    <GridLayout *tabItem="{title:'Due'}">
+        <StackLayout orientation="horizontal">
+            <Label text="Module Will be Presented In version2.0 After College Permission" textWrap="true" fontSize="18"></Label>
+        </StackLayout>
+        <StackLayout class="float-btn-container-ls" (tap)="click()">
+            <farjisub-btn></farjisub-btn>
+         </StackLayout>
+    </GridLayout>
+
+    <GridLayout *tabItem="{title:'Learn'}">
+            <StackLayout orientation="horizontal">
+                    <Label text="Module Will be Presented In version2.0 After College Permission" textWrap="true" fontSize="18"></Label>
+            </StackLayout>
+            <StackLayout class="float-btn-container" (tap)="click()" >
+                <farji-btn></farji-btn>
+             </StackLayout>
+        </GridLayout>
+</TabView>

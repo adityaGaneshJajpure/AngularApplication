@@ -1,0 +1,24 @@
+<GridLayout class="sidedrawer-header" rows="auto" columns="100, *">
+    <Image row="0" col="0" src="~/images/logoA.png" class="sidedrawer-header-image"></Image>
+    <Label row="0" col="1" text="COLLEGE MANAGER" class="sidedrawer-header-brand" textWrap="true"></Label>
+</GridLayout>
+<StackLayout class="sidedrawer-content" orientation="vertical">
+<GridLayout class="sidedrawer-list-item" rows="*" columns="50,*" 
+    orientation="horizontal" [nsRouterLink]="['/home']" clearHistory="true">
+    <Label row="0" col="0" class="sidedrawer-list-item-text fa" text="&#xf015;"></Label>
+        <Label row="0" col="1" class="sidedrawer-list-item-text"
+            text="Home"></Label>
+</GridLayout>
+<GridLayout class="sidedrawer-list-item" rows="*" columns="50,*" 
+    orientation="horizontal" [nsRouterLink]="['/news']" clearHistory="true">
+    <Label row="0" col="0" class="sidedrawer-list-item-text fa" text="&#xf2bb;"></Label>
+    <Label row="0" col="1" class="sidedrawer-list-item-text"
+        text="Contact Us"></Label>
+</GridLayout>
+<GridLayout class="sidedrawer-list-item" rows="*" columns="50, *"
+                 orientation="horizontal"
+                 [nsRouterLink]="['/favorites']" clearHistory="true">
+        <Label row="0" col="0" class="sidedrawer-list-item-text fa" text="&#xf005;"></Label>
+        <Label row="0" col="1" class="sidedrawer-list-item-text" text="My Starred News"></Label>
+</GridLayout>
+</StackLayout>

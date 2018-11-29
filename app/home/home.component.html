@@ -1,0 +1,37 @@
+<ActionBar title="Home" class="action-bar" >
+    </ActionBar>
+    <RadSideDrawer #drawerComponent tkToggleNavButton showOverNavigation="true">
+        <ScrollView tkDrawerContent class="sidedrawer-left">
+            <StackLayout horizontalAlign="left">
+                <drawer-content></drawer-content>
+            </StackLayout>
+        </ScrollView>
+        <ScrollView orientation="vertical" tkMainContent class="page" backgroundColor="black">
+        <StackLayout class="page" backgroundColor="black">
+            <GridLayout rows="{{(screenHeight)/8}},10,{{(screenHeight)/8}},10,{{(screenHeight)/8}}" columns="*,10,*" class="m-5" orientation="vertical" backgroundColor="black">
+                <StackLayout row="0" col="0" class="p-10" orientation="vertical" rows="auto auto" backgroundColor="white" [nsRouterLink] ="['/attendence']">
+                    <Label row="0" class="fa m-30" text="&#xf0c0;"  horizontalAlignment="center" verticalAlignment="center"></Label>
+                    <Label row="1" text="Attendence" color="#000000" horizontalAlignment="center" verticalAlignment="center"></Label>
+                </StackLayout>
+                <StackLayout row="0" col="2" class="p-10" orientation="vertical" rows="auto auto" backgroundColor="white" [nsRouterLink] ="['/assignment']">
+                    <Label row="0" class="fa m-30" text="&#xf0ae;" horizontalAlignment="center" verticalAlignment="center"></Label>
+                    <Label row="1" text="Assignment" color="#000000" horizontalAlignment="center" verticalAlignment="center"></Label>
+                </StackLayout>
+                <StackLayout row="2" col="0" class="p-10" orientation="vertical" rows="auto auto" backgroundColor="white" [nsRouterLink] ="['/chat']">
+                    <Label row="0" class="fa m-30" text="&#xf075;" horizontalAlignment="center" verticalAlignment="center"></Label>
+                    <Label text="Chat" color="#000000" horizontalAlignment="center" verticalAlignment="center"></Label>
+                </StackLayout>               
+                <StackLayout class="p-10" row="2" col="2" backgroundColor="white" [nsRouterLink] ="['/news']">
+                    <Label row="0" class="fa m-30" text="&#xf1ea;" horizontalAlignment="center" verticalAlignment="center"></Label>
+                    <Label text="News Feed" color="#000000" horizontalAlignment="center" verticalAlignment="center"></Label>
+                </StackLayout>
+                <StackLayout row="4" colspan="3" class="p-10" backgroundColor="white" [nsRouterLink] ="['/annoncom']">
+                    <Label row="0" class="fa m-30" text="&#xf086;" horizontalAlignment="center" verticalAlignment="center"></Label>
+                    <Label text="Anonymous Comment" color="#000000" horizontalAlignment="center" verticalAlignment="center"></Label>
+                </StackLayout> 
+            </GridLayout>
+        </StackLayout>
+        </ScrollView>
+    </RadSideDrawer>
+
+    

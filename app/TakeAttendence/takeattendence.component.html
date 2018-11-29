@@ -1,0 +1,22 @@
+<!--Dish detail jesa hi-->
+<StackLayout orientation="horizontal">
+    <ListView [items] = "classes.students" class="list-group" *ngIf="classes">
+        <ng-template let-student="item">
+            <StackLayout orientation="horizontal" class="list-group-item p-10 border">
+                 <GridLayout class="list-group-item" rows="auto *" columns="*,*,50,50,50" backgroundColor="white"> 
+                    <Label row="0" col="0" class="list-group-item-text" [text]="student.enrollment"></Label>
+                    <Label row="0" col="1" class="list-group-item-text" [text]="student.name"></Label>
+                    <Button row="0" col="2" class="list-group-item-action btn btn-rounded-sm btn-outline no-border fa" text="&#xf007;" (tap)="presentfn(student.enrollment)"></Button>
+                    <Button row="0" col="3" class="list-group-item-action btn btn-rounded-sm btn-outline no-border fa" text="&#xf007;" (tap)="absentfn(student.enrollment)"></Button>
+                    <Button row="0" col="3" class="list-group-item-action btn btn-rounded-sm btn-outline no-border fa" text="&#xf007;" (tap)="leavefn(student.enrollment)"></Button>
+                </GridLayout>
+            </StackLayout>
+        </ng-template>
+    </ListView>      
+    <ActivityIndicator busy="true" *ngIf="!(classes || errMess)" width="50"
+            height="50" class="activity-indicator"></ActivityIndicator>
+    <Label *ngIf="errMess" text="Empty list,Please add a class first"></Label>      
+    <StackLayout class="float-btn-container-ls">
+        <presentstatus-btn></presentstatus-btn>
+     </StackLayout>
+</StackLayout>

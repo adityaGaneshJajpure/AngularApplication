@@ -1,0 +1,28 @@
+<ActionBar title="News Feed" class="action-bar">
+
+</ActionBar>
+<RadSideDrawer #drawerComponent tkToggleNavButton showOverNavigation="true">
+    <ScrollView tkDrawerContent class="sidedrawer-left">
+        <StackLayout horizontalAlign="left">
+            <drawer-content></drawer-content>
+        </StackLayout>
+    </ScrollView>
+<StackLayout tkMainContent class="page">
+    <ListView [items] = "newsall" class="list-group" *ngIf="newsall">
+        <ng-template let-news="item">
+                <StackLayout orientation="horizontal" 
+                class="list-group-item" [nsRouterLink] ="['/newsdetail',news.id]">
+                <Image row="0" col="0" rowSpan="2" height="108" width="108"
+                    [src]="BaseURL + news.image" class="thumb p-16"></Image>
+                <GridLayout class="list-group-item" rows="auto *" columns="*">
+                    <Label row="0" col="0" class="list-group-item-text" 
+                        [text]="news.name" textWrap="true"></Label>
+                </GridLayout>
+                </StackLayout>
+        </ng-template>
+    </ListView>
+    <ActivityIndicator busy="true" *ngIf="!(newsall || errMess)" width="50"
+       height="50" class="activity-indicator"></ActivityIndicator>
+       <Label *ngIf="errMess" [text]="'Error: ' + errMess"></Label>
+</StackLayout> 
+</RadSideDrawer>

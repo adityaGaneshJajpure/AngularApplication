@@ -1,0 +1,13 @@
+<StackLayout class="modal-view-style">
+    <GridLayout class="m-5" rows="auto auto auto" columns="*, *" [formGroup]="formComment">
+        <Label class="h3 m-15" row="0" col="0" text="Student's Name" textWrap="true"></Label>
+        <TextField class="input input-border" id="textName" hint="Enter Class Name" [text]='' (textChange)="onNameChange($event)"
+            row="0" col="1" formControlName="name"></TextField>
+        <Label class="h3 m-15" row="1" col="0" text="Enrollment Number" textWrap="true"></Label>
+        <TextField class="input input-border" id="textEnrollment" hint="Enter Class Name" [text]='' (textChange)="onNameChange($event)"
+            row="1" col="1" formControlName="enrollment"></TextField>
+        <Label class="h3 m-15" row="1" col="0" text="Enrollment" textWrap="true"></Label>
+        <Button class="btn btn-primary btn-active m-15" row="2" col="0" text="Submit" (tap)="onSubmit()"></Button>
+        <Button class="btn btn-primary btn-active m-15" row="2" col="1" text="Cancel" (tap)="onCancel()"></Button>
+    </GridLayout>
+</StackLayout>
